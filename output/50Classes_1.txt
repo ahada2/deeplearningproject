@@ -1,0 +1,156 @@
+E:\project>python zombie50.py
+Using TensorFlow backend.
+2019-07-28 02:40:32.934033: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-07-28 02:40:33.136253: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties:
+name: GeForce GTX 1060 3GB major: 6 minor: 1 memoryClockRate(GHz): 1.835
+pciBusID: 0000:01:00.0
+totalMemory: 3.00GiB freeMemory: 2.43GiB
+2019-07-28 02:40:33.144106: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-28 02:40:43.589682: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-28 02:40:43.599826: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2019-07-28 02:40:43.605146: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2019-07-28 02:40:43.611105: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2124 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 3GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Found 50000 images belonging to 50 classes.
+Found 50000 images belonging to 50 classes.
+Epoch 1/50
+2019-07-28 02:40:56.791884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-28 02:40:56.807370: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-28 02:40:56.820437: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2019-07-28 02:40:56.826892: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2019-07-28 02:40:56.835602: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2124 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 3GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+391/390 [==============================] - 2434s 6s/step - loss: 3.8625 - acc: 0.0323 - val_loss: 3.7762 - val_acc: 0.0493
+Epoch 2/50
+391/390 [==============================] - 1014s 3s/step - loss: 3.7058 - acc: 0.0643 - val_loss: 3.6590 - val_acc: 0.0821
+Epoch 3/50
+391/390 [==============================] - 181s 464ms/step - loss: 3.5405 - acc: 0.0996 - val_loss: 3.4202 - val_acc: 0.1270
+Epoch 4/50
+391/390 [==============================] - 180s 461ms/step - loss: 3.3551 - acc: 0.1370 - val_loss: 3.2556 - val_acc: 0.1607
+Epoch 5/50
+391/390 [==============================] - 181s 462ms/step - loss: 3.2110 - acc: 0.1686 - val_loss: 3.0330 - val_acc: 0.2122
+Epoch 6/50
+391/390 [==============================] - 181s 462ms/step - loss: 3.0964 - acc: 0.1946 - val_loss: 2.9243 - val_acc: 0.2405
+Epoch 7/50
+391/390 [==============================] - 180s 460ms/step - loss: 3.0015 - acc: 0.2158 - val_loss: 2.8766 - val_acc: 0.2518
+Epoch 8/50
+391/390 [==============================] - 180s 461ms/step - loss: 2.9081 - acc: 0.2358 - val_loss: 2.7785 - val_acc: 0.2764
+Epoch 9/50
+391/390 [==============================] - 182s 465ms/step - loss: 2.8332 - acc: 0.2506 - val_loss: 2.6682 - val_acc: 0.3030
+Epoch 10/50
+391/390 [==============================] - 182s 467ms/step - loss: 2.7532 - acc: 0.2675 - val_loss: 2.6160 - val_acc: 0.3136
+Epoch 11/50
+391/390 [==============================] - 181s 464ms/step - loss: 2.6879 - acc: 0.2825 - val_loss: 2.4821 - val_acc: 0.3452
+Epoch 12/50
+391/390 [==============================] - 180s 461ms/step - loss: 2.6196 - acc: 0.2987 - val_loss: 2.4079 - val_acc: 0.3600
+Epoch 13/50
+391/390 [==============================] - 180s 459ms/step - loss: 2.5516 - acc: 0.3112 - val_loss: 2.3151 - val_acc: 0.3858
+Epoch 14/50
+391/390 [==============================] - 180s 461ms/step - loss: 2.4884 - acc: 0.3260 - val_loss: 2.2532 - val_acc: 0.3978
+Epoch 15/50
+391/390 [==============================] - 186s 475ms/step - loss: 2.4266 - acc: 0.3401 - val_loss: 2.1377 - val_acc: 0.4264
+Epoch 16/50
+391/390 [==============================] - 182s 465ms/step - loss: 2.3672 - acc: 0.3532 - val_loss: 2.0714 - val_acc: 0.4331
+Epoch 17/50
+391/390 [==============================] - 179s 457ms/step - loss: 2.3148 - acc: 0.3632 - val_loss: 2.0405 - val_acc: 0.4562
+Epoch 18/50
+391/390 [==============================] - 179s 458ms/step - loss: 2.2585 - acc: 0.3727 - val_loss: 1.9891 - val_acc: 0.4681
+Epoch 19/50
+391/390 [==============================] - 179s 457ms/step - loss: 2.2103 - acc: 0.3873 - val_loss: 1.8676 - val_acc: 0.4928
+Epoch 20/50
+391/390 [==============================] - 179s 458ms/step - loss: 2.1523 - acc: 0.4001 - val_loss: 1.8040 - val_acc: 0.5126
+Epoch 21/50
+391/390 [==============================] - 179s 458ms/step - loss: 2.0989 - acc: 0.4085 - val_loss: 1.7774 - val_acc: 0.5255
+Epoch 22/50
+391/390 [==============================] - 179s 457ms/step - loss: 2.0424 - acc: 0.4233 - val_loss: 1.6692 - val_acc: 0.5411
+Epoch 23/50
+391/390 [==============================] - 179s 457ms/step - loss: 1.9983 - acc: 0.4327 - val_loss: 1.6103 - val_acc: 0.5694
+Epoch 24/50
+391/390 [==============================] - 180s 460ms/step - loss: 1.9512 - acc: 0.4424 - val_loss: 1.5622 - val_acc: 0.5697
+Epoch 25/50
+391/390 [==============================] - 181s 462ms/step - loss: 1.9299 - acc: 0.4483 - val_loss: 1.5617 - val_acc: 0.5733
+Epoch 26/50
+391/390 [==============================] - 183s 468ms/step - loss: 1.8526 - acc: 0.4667 - val_loss: 1.4389 - val_acc: 0.6125
+Epoch 27/50
+391/390 [==============================] - 182s 466ms/step - loss: 1.8335 - acc: 0.4730 - val_loss: 1.3739 - val_acc: 0.6251
+Epoch 28/50
+391/390 [==============================] - 182s 465ms/step - loss: 1.7853 - acc: 0.4813 - val_loss: 1.3346 - val_acc: 0.6349
+Epoch 29/50
+391/390 [==============================] - 183s 467ms/step - loss: 1.7384 - acc: 0.4915 - val_loss: 1.2713 - val_acc: 0.6640
+Epoch 30/50
+391/390 [==============================] - 183s 468ms/step - loss: 1.7012 - acc: 0.5038 - val_loss: 1.2433 - val_acc: 0.6666
+Epoch 31/50
+391/390 [==============================] - 181s 464ms/step - loss: 1.6722 - acc: 0.5105 - val_loss: 1.2248 - val_acc: 0.6681
+Epoch 32/50
+391/390 [==============================] - 181s 463ms/step - loss: 1.6486 - acc: 0.5178 - val_loss: 1.2146 - val_acc: 0.6742
+Epoch 33/50
+391/390 [==============================] - 179s 458ms/step - loss: 1.6045 - acc: 0.5269 - val_loss: 1.1017 - val_acc: 0.7070
+Epoch 34/50
+391/390 [==============================] - 179s 457ms/step - loss: 1.5779 - acc: 0.5342 - val_loss: 1.0865 - val_acc: 0.7112
+Epoch 35/50
+391/390 [==============================] - 179s 459ms/step - loss: 1.5405 - acc: 0.5447 - val_loss: 1.0531 - val_acc: 0.7174
+Epoch 36/50
+391/390 [==============================] - 180s 460ms/step - loss: 1.5144 - acc: 0.5492 - val_loss: 1.0448 - val_acc: 0.7268
+Epoch 37/50
+391/390 [==============================] - 180s 460ms/step - loss: 1.4880 - acc: 0.5586 - val_loss: 1.0357 - val_acc: 0.7225
+Epoch 38/50
+391/390 [==============================] - 180s 461ms/step - loss: 1.4675 - acc: 0.5641 - val_loss: 0.9475 - val_acc: 0.7475
+Epoch 39/50
+391/390 [==============================] - 180s 461ms/step - loss: 1.4402 - acc: 0.5699 - val_loss: 0.9292 - val_acc: 0.7562
+Epoch 40/50
+391/390 [==============================] - 179s 458ms/step - loss: 1.3994 - acc: 0.5797 - val_loss: 0.8966 - val_acc: 0.7666
+Epoch 41/50
+391/390 [==============================] - 180s 460ms/step - loss: 1.3880 - acc: 0.5830 - val_loss: 0.9083 - val_acc: 0.7556
+Epoch 42/50
+391/390 [==============================] - 179s 459ms/step - loss: 1.3476 - acc: 0.5945 - val_loss: 0.8837 - val_acc: 0.7699
+Epoch 43/50
+391/390 [==============================] - 180s 459ms/step - loss: 1.3373 - acc: 0.5971 - val_loss: 0.7973 - val_acc: 0.7986
+Epoch 44/50
+391/390 [==============================] - 181s 462ms/step - loss: 1.3244 - acc: 0.6011 - val_loss: 0.7925 - val_acc: 0.7952
+Epoch 45/50
+391/390 [==============================] - 180s 459ms/step - loss: 1.3074 - acc: 0.6074 - val_loss: 0.7663 - val_acc: 0.8016
+Epoch 46/50
+391/390 [==============================] - 181s 462ms/step - loss: 1.2718 - acc: 0.6165 - val_loss: 0.7660 - val_acc: 0.8051
+Epoch 47/50
+391/390 [==============================] - 181s 463ms/step - loss: 1.2608 - acc: 0.6181 - val_loss: 0.7735 - val_acc: 0.7990
+Epoch 48/50
+391/390 [==============================] - 180s 461ms/step - loss: 1.2318 - acc: 0.6266 - val_loss: 0.7040 - val_acc: 0.8241
+Epoch 49/50
+391/390 [==============================] - 181s 463ms/step - loss: 1.2228 - acc: 0.6309 - val_loss: 0.6582 - val_acc: 0.8313
+Epoch 50/50
+391/390 [==============================] - 180s 461ms/step - loss: 1.2010 - acc: 0.6367 - val_loss: 0.7000 - val_acc: 0.8161
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+conv2d_1 (Conv2D)            (None, 96, 96, 32)        2432
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 48, 48, 32)        0
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 44, 44, 64)        51264
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 22, 22, 64)        0
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 18, 18, 128)       204928
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 9, 9, 128)         0
+_________________________________________________________________
+conv2d_4 (Conv2D)            (None, 5, 5, 256)         819456
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 5, 5, 256)         0
+_________________________________________________________________
+max_pooling2d_4 (MaxPooling2 (None, 2, 2, 256)         0
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 1024)              0
+_________________________________________________________________
+dense_1 (Dense)              (None, 128)               131200
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 128)               0
+_________________________________________________________________
+dense_2 (Dense)              (None, 128)               16512
+_________________________________________________________________
+dropout_3 (Dropout)          (None, 128)               0
+_________________________________________________________________
+dense_3 (Dense)              (None, 50)                6450
+=================================================================
+Total params: 1,232,242
+Trainable params: 1,232,242
+Non-trainable params: 0
+_________________________________________________________________
