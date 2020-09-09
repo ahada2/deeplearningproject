@@ -1,0 +1,6 @@
+food_labels = ["ChicFila_crispy_chicken_sandwich","ChicFila_milk_shake","ChicFila_nuggets","ChicFila_sidesalad","ChicFila_waffle_fries",
+"apple_pie","baby_back_ribs","baklava","bruschetta","butter_garlic_shrimp","cannoli","cappuccino","cheesecake",
+"chicken_curry","chicken_wings","chocolate_cake","churros","club_sandwich","corn_on_the_cob","croque_madame","cup_cakes",
+"deviled_eggs","donuts","dumplings","edamame","escargots","falafel","french_fries","garlic_bread","gnocchi","guacamole",
+"hot_dog","hummus","ice_cream","jalebi","lasagna","lobster_roll_sandwich","macaroni_and_cheese","macarons","mango_lassi",
+"mcd_french_fries","mussels","oysters","pancakes","panna_cotta","prime_rib","samosa","sashimi","sea_urchin","whole_boiled_crab"]
